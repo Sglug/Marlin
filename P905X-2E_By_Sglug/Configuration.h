@@ -1029,16 +1029,16 @@
   #define RIGHT_PROBE_BED_POSITION (X_BED_SIZE - MIN_PROBE_EDGE)
   #define FRONT_PROBE_BED_POSITION MIN_PROBE_EDGE
   #define BACK_PROBE_BED_POSITION (Y_BED_SIZE - MIN_PROBE_EDGE)
-/*      +-- BACK ---+ <-- probe (265*227)
+/*      +-- BACK ---+ <-- probe (245*207)
  *      |           |
- *    L |    (+)    | R   MIN_PROBE_EDGE = 15
+ *    L |    (+)    | R   MIN_PROBE_EDGE = 35
  *    E |           | I   X_BED_SIZE = 280
  *    F | (-)   (+) | G   Y_BED_SIZE = 242
  *    T |           | H
  *      |    (-)    | T
  *      |           |
  *      O-- FRONT --+
- *    (10,10)
+ *    (35,35)
  */
 
   // Probe along the Y axis, advancing X after each column
