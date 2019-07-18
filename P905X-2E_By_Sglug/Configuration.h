@@ -381,9 +381,9 @@
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
   // FlyingBear - P905X
-  #define  DEFAULT_Kp 15.35
-  #define  DEFAULT_Ki 1.16
-  #define  DEFAULT_Kd 150.60
+  #define  DEFAULT_Kp 22.09
+  #define  DEFAULT_Ki 1.77
+  #define  DEFAULT_Kd 68.78
 
   // MakerGear
   //#define DEFAULT_Kp 7.0
